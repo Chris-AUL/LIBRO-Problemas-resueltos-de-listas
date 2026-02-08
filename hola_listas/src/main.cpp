@@ -1,4 +1,4 @@
-/* 
+/*
     EJEMPLO BASE
 */
 
@@ -27,16 +27,17 @@ int main()
     EJEMPLO CON TEMPLATE
 */
 
-#include "Lista.h"
+#include "../include/Lista.h"
 
 int main() {
-    Lista<int> l1(10);
-    Lista<char> l2('A');
-    Lista<string> l3("USAC");
+  Lista<int> l1(10);
+  Lista<char> l2('A');
+  Lista<string> l3("USAC");
 
-    l1.hola();
-    l2.hola();
-    l3.hola();
+  // hola(), método de Lista<T>
+  l1.hola();
+  l2.hola();
+  l3.hola();
 
-    return 0;
+  return 0;
 }
